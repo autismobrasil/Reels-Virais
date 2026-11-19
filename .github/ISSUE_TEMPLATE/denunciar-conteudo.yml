@@ -1,0 +1,29 @@
+name: Denunciar conteúdo
+description: Avise sobre golpe, desinformação, spam ou conteúdo impróprio que apareceu no app.
+title: "[Denúncia] "
+labels: ["moderação"]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Link do conteúdo
+      description: O endereço da notícia ou do vídeo.
+    validations:
+      required: true
+  - type: dropdown
+    id: motivo
+    attributes:
+      label: Motivo
+      options:
+        - Golpe ou fraude
+        - Desinformação
+        - Spam ou clickbait
+        - Conteúdo impróprio ou ofensivo
+        - Outro
+    validations:
+      required: true
+  - type: textarea
+    id: detalhes
+    attributes:
+      label: Detalhes (opcional)
+      description: Explique rapidamente o problema.

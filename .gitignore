@@ -1,0 +1,3 @@
+node_modules/
+public/data/feed.json
+.DS_Store

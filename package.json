@@ -1,0 +1,16 @@
+{
+  "name": "reels-virais",
+  "version": "0.1.0",
+  "description": "App open source para encontrar notícias, assuntos em alta e vídeos virais do Brasil.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "collect": "node collector/collect.mjs",
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test \"test/*.test.mjs\""
+  }
+}

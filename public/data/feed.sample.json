@@ -1,0 +1,385 @@
+{
+ "generatedAt": "2026-11-19T13:13:35.466Z",
+ "sources": [
+  {
+   "name": "exemplo",
+   "ok": true,
+   "count": 19
+  }
+ ],
+ "categories": {
+  "news": [
+   {
+    "id": "destaques",
+    "label": "Destaques"
+   },
+   {
+    "id": "brasil",
+    "label": "Brasil"
+   },
+   {
+    "id": "mundo",
+    "label": "Mundo"
+   },
+   {
+    "id": "economia",
+    "label": "Economia"
+   },
+   {
+    "id": "tecnologia",
+    "label": "Tecnologia"
+   },
+   {
+    "id": "entretenimento",
+    "label": "Entretenimento"
+   },
+   {
+    "id": "esportes",
+    "label": "Esportes"
+   },
+   {
+    "id": "ciencia",
+    "label": "Ciência"
+   },
+   {
+    "id": "saude",
+    "label": "Saúde"
+   }
+  ],
+  "videos": [
+   {
+    "id": "todos",
+    "label": "Todos"
+   },
+   {
+    "id": "musica",
+    "label": "Música"
+   },
+   {
+    "id": "games",
+    "label": "Games"
+   },
+   {
+    "id": "esportes",
+    "label": "Esportes"
+   },
+   {
+    "id": "entretenimento",
+    "label": "Entretenimento"
+   },
+   {
+    "id": "humor",
+    "label": "Humor"
+   },
+   {
+    "id": "noticias",
+    "label": "Notícias"
+   }
+  ]
+ },
+ "trends": [
+  {
+   "id": "t:ex0",
+   "type": "trend",
+   "title": "Exemplo: Final do campeonato",
+   "url": "https://www.google.com/search?q=Final%20do%20campeonato",
+   "traffic": "500 mil+",
+   "trafficNum": 500000,
+   "image": null,
+   "publishedAt": "2026-11-19T12:43:35.466Z",
+   "news": [
+    {
+     "title": "Notícia de exemplo sobre final do campeonato",
+     "url": "https://example.com/0",
+     "source": "Fonte Exemplo"
+    }
+   ]
+  },
+  {
+   "id": "t:ex1",
+   "type": "trend",
+   "title": "Exemplo: Show surpresa no Rio",
+   "url": "https://www.google.com/search?q=Show%20surpresa%20no%20Rio",
+   "traffic": "200 mil+",
+   "trafficNum": 200000,
+   "image": null,
+   "publishedAt": "2026-11-19T11:43:35.466Z",
+   "news": [
+    {
+     "title": "Notícia de exemplo sobre show surpresa no rio",
+     "url": "https://example.com/1",
+     "source": "Fonte Exemplo"
+    }
+   ]
+  },
+  {
+   "id": "t:ex2",
+   "type": "trend",
+   "title": "Exemplo: Novo celular lançado",
+   "url": "https://www.google.com/search?q=Novo%20celular%20lan%C3%A7ado",
+   "traffic": "100 mil+",
+   "trafficNum": 100000,
+   "image": null,
+   "publishedAt": "2026-11-19T10:43:35.466Z",
+   "news": [
+    {
+     "title": "Notícia de exemplo sobre novo celular lançado",
+     "url": "https://example.com/2",
+     "source": "Fonte Exemplo"
+    }
+   ]
+  },
+  {
+   "id": "t:ex3",
+   "type": "trend",
+   "title": "Exemplo: Previsão de frio intenso",
+   "url": "https://www.google.com/search?q=Previs%C3%A3o%20de%20frio%20intenso",
+   "traffic": "50 mil+",
+   "trafficNum": 50000,
+   "image": null,
+   "publishedAt": "2026-11-19T09:43:35.466Z",
+   "news": [
+    {
+     "title": "Notícia de exemplo sobre previsão de frio intenso",
+     "url": "https://example.com/3",
+     "source": "Fonte Exemplo"
+    }
+   ]
+  },
+  {
+   "id": "t:ex4",
+   "type": "trend",
+   "title": "Exemplo: Série estreia hoje",
+   "url": "https://www.google.com/search?q=S%C3%A9rie%20estreia%20hoje",
+   "traffic": "20 mil+",
+   "trafficNum": 20000,
+   "image": null,
+   "publishedAt": "2026-11-19T08:43:35.466Z",
+   "news": [
+    {
+     "title": "Notícia de exemplo sobre série estreia hoje",
+     "url": "https://example.com/4",
+     "source": "Fonte Exemplo"
+    }
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "id": "yt:ex0",
+   "type": "video",
+   "videoId": "ex0",
+   "title": "Exemplo: Clipe novo bate recorde",
+   "url": "https://www.youtube.com/watch?v=ex0",
+   "channel": "Canal Exemplo 1",
+   "channelId": "UCex0",
+   "publishedAt": "2026-11-19T11:43:35.466Z",
+   "thumbnail": null,
+   "views": 2100000,
+   "likes": 120000,
+   "comments": 5400,
+   "categories": [
+    "todos",
+    "musica"
+   ],
+   "score": 10000
+  },
+  {
+   "id": "yt:ex1",
+   "type": "video",
+   "videoId": "ex1",
+   "title": "Exemplo: Gol de bicicleta no último minuto",
+   "url": "https://www.youtube.com/watch?v=ex1",
+   "channel": "Canal Exemplo 2",
+   "channelId": "UCex1",
+   "publishedAt": "2026-11-19T08:43:35.466Z",
+   "thumbnail": null,
+   "views": 1750000,
+   "likes": 100000,
+   "comments": 4500,
+   "categories": [
+    "todos",
+    "esportes"
+   ],
+   "score": 9000
+  },
+  {
+   "id": "yt:ex2",
+   "type": "video",
+   "videoId": "ex2",
+   "title": "Exemplo: Speedrun impressionante",
+   "url": "https://www.youtube.com/watch?v=ex2",
+   "channel": "Canal Exemplo 3",
+   "channelId": "UCex2",
+   "publishedAt": "2026-11-19T05:43:35.466Z",
+   "thumbnail": null,
+   "views": 1400000,
+   "likes": 80000,
+   "comments": 3600,
+   "categories": [
+    "todos",
+    "games"
+   ],
+   "score": 8000
+  },
+  {
+   "id": "yt:ex3",
+   "type": "video",
+   "videoId": "ex3",
+   "title": "Exemplo: Esquete de humor",
+   "url": "https://www.youtube.com/watch?v=ex3",
+   "channel": "Canal Exemplo 4",
+   "channelId": "UCex3",
+   "publishedAt": "2026-11-19T02:43:35.466Z",
+   "thumbnail": null,
+   "views": 1050000,
+   "likes": 60000,
+   "comments": 2700,
+   "categories": [
+    "todos",
+    "humor"
+   ],
+   "score": 7000
+  },
+  {
+   "id": "yt:ex4",
+   "type": "video",
+   "videoId": "ex4",
+   "title": "Exemplo: Resumo do dia",
+   "url": "https://www.youtube.com/watch?v=ex4",
+   "channel": "Canal Exemplo 5",
+   "channelId": "UCex4",
+   "publishedAt": "2026-11-18T23:43:35.466Z",
+   "thumbnail": null,
+   "views": 700000,
+   "likes": 40000,
+   "comments": 1800,
+   "categories": [
+    "todos",
+    "noticias"
+   ],
+   "score": 6000
+  },
+  {
+   "id": "yt:ex5",
+   "type": "video",
+   "videoId": "ex5",
+   "title": "Exemplo: Reação ao trailer",
+   "url": "https://www.youtube.com/watch?v=ex5",
+   "channel": "Canal Exemplo 6",
+   "channelId": "UCex5",
+   "publishedAt": "2026-11-18T20:43:35.466Z",
+   "thumbnail": null,
+   "views": 350000,
+   "likes": 20000,
+   "comments": 900,
+   "categories": [
+    "todos",
+    "entretenimento"
+   ],
+   "score": 5000
+  }
+ ],
+ "news": [
+  {
+   "id": "n:ex0",
+   "type": "news",
+   "title": "Exemplo: Governo anuncia novo programa",
+   "url": "https://example.com/noticia-0",
+   "source": "Fonte Exemplo",
+   "sourceUrl": "https://example.com",
+   "publishedAt": "2026-11-19T13:31:35.466Z",
+   "categories": [
+    "destaques",
+    "brasil"
+   ]
+  },
+  {
+   "id": "n:ex1",
+   "type": "news",
+   "title": "Exemplo: Bolsa fecha em alta",
+   "url": "https://example.com/noticia-1",
+   "source": "Fonte Exemplo",
+   "sourceUrl": "https://example.com",
+   "publishedAt": "2026-11-19T12:49:35.466Z",
+   "categories": [
+    "destaques",
+    "economia"
+   ]
+  },
+  {
+   "id": "n:ex2",
+   "type": "news",
+   "title": "Exemplo: Empresa apresenta IA em português",
+   "url": "https://example.com/noticia-2",
+   "source": "Fonte Exemplo",
+   "sourceUrl": "https://example.com",
+   "publishedAt": "2026-11-19T12:07:35.466Z",
+   "categories": [
+    "destaques",
+    "tecnologia"
+   ]
+  },
+  {
+   "id": "n:ex3",
+   "type": "news",
+   "title": "Exemplo: Seleção divulga convocados",
+   "url": "https://example.com/noticia-3",
+   "source": "Fonte Exemplo",
+   "sourceUrl": "https://example.com",
+   "publishedAt": "2026-11-19T11:25:35.466Z",
+   "categories": [
+    "destaques",
+    "esportes"
+   ]
+  },
+  {
+   "id": "n:ex4",
+   "type": "news",
+   "title": "Exemplo: Pesquisa descobre nova espécie",
+   "url": "https://example.com/noticia-4",
+   "source": "Fonte Exemplo",
+   "sourceUrl": "https://example.com",
+   "publishedAt": "2026-11-19T10:43:35.466Z",
+   "categories": [
+    "ciencia"
+   ]
+  },
+  {
+   "id": "n:ex5",
+   "type": "news",
+   "title": "Exemplo: Campanha de vacinação começa",
+   "url": "https://example.com/noticia-5",
+   "source": "Fonte Exemplo",
+   "sourceUrl": "https://example.com",
+   "publishedAt": "2026-11-19T10:01:35.466Z",
+   "categories": [
+    "saude"
+   ]
+  },
+  {
+   "id": "n:ex6",
+   "type": "news",
+   "title": "Exemplo: Cúpula internacional termina com acordo",
+   "url": "https://example.com/noticia-6",
+   "source": "Fonte Exemplo",
+   "sourceUrl": "https://example.com",
+   "publishedAt": "2026-11-19T09:19:35.466Z",
+   "categories": [
+    "mundo"
+   ]
+  },
+  {
+   "id": "n:ex7",
+   "type": "news",
+   "title": "Exemplo: Festival anuncia atrações",
+   "url": "https://example.com/noticia-7",
+   "source": "Fonte Exemplo",
+   "sourceUrl": "https://example.com",
+   "publishedAt": "2026-11-19T08:37:35.466Z",
+   "categories": [
+    "entretenimento"
+   ]
+  }
+ ]
+}

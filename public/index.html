@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reels Virais</title>
+  <meta name="description" content="Notícias, assuntos em alta e vídeos virais do Brasil em um só lugar. Open source.">
+  <meta name="theme-color" content="#0f766e">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    try { if (localStorage.getItem('reels-virais:contrast') === 'high') document.documentElement.dataset.contrast = 'high'; } catch {}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="./" aria-label="Reels Virais, página inicial">
+        <img src="icon.svg" alt="" width="28" height="28">
+        <span>Reels Virais</span>
+      </a>
+      <form class="search" role="search" id="search-form">
+        <label class="visually-hidden" for="q">Buscar notícias e vídeos</label>
+        <input id="q" name="q" type="search" placeholder="Buscar notícias, vídeos, assuntos…" autocomplete="off">
+      </form>
+      <button class="icon-btn" id="contrast-toggle" type="button" aria-pressed="false" title="Alto contraste">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg>
+        <span class="visually-hidden">Alto contraste</span>
+      </button>
+    </div>
+    <nav class="wrap tabs" aria-label="Seções">
+      <button type="button" class="tab" data-tab="alta">Em alta</button>
+      <button type="button" class="tab" data-tab="videos">Vídeos</button>
+      <button type="button" class="tab" data-tab="noticias">Notícias</button>
+    </nav>
+  </header>
+
+  <main id="conteudo" class="wrap" tabindex="-1">
+    <div id="notice" class="notice" hidden></div>
+    <div id="chips" class="chips" role="group" aria-label="Categorias" hidden></div>
+    <div id="view" aria-live="polite"><p class="empty">Carregando…</p></div>
+  </main>
+
+  <footer class="wrap footer">
+    <p id="updated"></p>
+    <p>
+      Projeto open source (MIT).
+      <a href="https://github.com/autismobrasil/Reels-Virais" rel="noopener">Código no GitHub</a> ·
+      Conteúdo pertence às fontes originais.
+    </p>
+  </footer>
+
+  <dialog id="player" aria-labelledby="player-title">
+    <div class="player-head">
+      <h2 id="player-title"></h2>
+      <button type="button" class="icon-btn" id="player-close" aria-label="Fechar vídeo">✕</button>
+    </div>
+    <div class="player-frame" id="player-frame"></div>
+    <p class="player-links"><a id="player-yt" href="#" target="_blank" rel="noopener">Abrir no YouTube</a></p>
+  </dialog>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
